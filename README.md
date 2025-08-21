@@ -45,6 +45,7 @@ sudo cp abracadabra /usr/local/bin/
 ### Available Commands
 
 #### System Information
+
 Display current system resource usage:
 
 ```bash
@@ -52,12 +53,14 @@ Display current system resource usage:
 ```
 
 **Example output:**
+
 ```
 🖥️ CPU Usage: 15.32%
 💾 RAM: 8.45 GB / 16.00 GB (53%)
 ```
 
 #### Disk Usage
+
 Show disk space information:
 
 ```bash
@@ -65,11 +68,13 @@ Show disk space information:
 ```
 
 **Example output:**
+
 ```
 📂 Disk: 245.67 GB free / 500.00 GB total (51% used)
 ```
 
 #### Service Logs
+
 Tail logs for a systemd service:
 
 ```bash
@@ -79,6 +84,7 @@ Tail logs for a systemd service:
 ```
 
 #### Docker Cleanup
+
 Remove dangling Docker containers and images:
 
 ```bash
@@ -86,6 +92,7 @@ Remove dangling Docker containers and images:
 ```
 
 **Output:**
+
 ```
 🧹 Docker cleaned!
 ```
